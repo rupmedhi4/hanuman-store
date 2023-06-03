@@ -15,6 +15,7 @@ const Navbar = () => {
   return (
     <Flex
       as="nav"
+      
       align="center"
       justify="space-between"
       padding={4}
