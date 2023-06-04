@@ -1,5 +1,6 @@
 import React from 'react'
 import FeatureCard from './FeatureCard';
+import {Text,Button,Flex} from '@chakra-ui/react';
 
 export default function FeatureProducts() {
 
@@ -204,6 +205,21 @@ export default function FeatureProducts() {
       
   return (
     <>
+<Flex
+  mt={"4rem"}
+  marginLeft={"5.5rem"}
+  mb={"-4%"}
+  fontSize="2.5rem"
+  fontWeight={"bold"}
+  justifyContent="space-between"
+  alignItems="center"
+  marginRight={"6rem"}
+>
+  <Text>Featured Products</Text>
+  <Button>See All</Button>
+</Flex>
+
+   
       {dummyArray.map((product)=>(
         <FeatureCard product={product}/>
       ))}
