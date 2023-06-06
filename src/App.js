@@ -8,11 +8,11 @@ import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-    <Navbar />
-    <Cart/>
-    <FeatureProducts/>
-    <Footer/>
-  </ChakraProvider>
+      <Navbar />
+      <Cart />
+      <FeatureProducts />
+      <Footer />
+    </ChakraProvider>
   );
 }
 
